@@ -1,0 +1,12 @@
+<div class="search">
+  <div class="inputBox">
+    <input
+      type="text"
+      [(ngModel)]="searchInput"
+      name="searchInput"
+      (keyup.enter)="getUser()"
+      placeholder="search..."
+      autocomplete="off"
+    />
+  </div>
+</div>
