@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "sahista"
+    }
+  },
+  "defaultProject": "sahista",
+  "cli": {
+    "analytics": false
+  }
 }
